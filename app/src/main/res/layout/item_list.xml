@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:padding="10dp"
+    android:background="#EDEBEB"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Name"
+            android:textColor="#F3356B"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:text="description"
+            android:textSize="15dp"
+            android:textColor="#090909"
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:text="brand"
+            android:textSize="15dp"
+            android:textColor="#252525"
+            android:id="@+id/txt_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:text="price"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#333333"
+            android:id="@+id/txt_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
